@@ -83,7 +83,6 @@ plt.title('Feature importance based on SHAP values')
 shap.summary_plot(shap_values, X)
 st.pyplot(plt, bbox_inches='tight')
 
-
 plt.figure(figsize=(5,25))
 plt.title('Feature importance based on SHAP values (Bar)')
 shap.summary_plot(shap_values, X, plot_type="bar")
